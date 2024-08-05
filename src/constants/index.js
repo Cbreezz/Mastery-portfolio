@@ -114,7 +114,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "Synnefa Green Limited",
-      icon: starbucks,
+      icon: syneffagreenlimited,
       iconBg: "#383E56",
       date: "July 2021 - December 2021",
       points: [
@@ -127,7 +127,7 @@ import {
     {
       title: "React Native Developer",
       company_name: "Inceptor Kenya",
-      icon: tesla,
+      icon: inceptor,
       iconBg: "#E6DEDD",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -140,7 +140,7 @@ import {
     {
       title: "Web Developer",
       company_name: "PESco",
-      icon: shopify,
+      icon: pesco,
       iconBg: "#383E56",
       date: "Feb 2023 - Jan 2024",
       points: [
@@ -153,7 +153,7 @@ import {
     {
       title: "Full stack Developer",
       company_name: "County Government Funds(CDF)",
-      icon: meta,
+      icon: cdf,
       iconBg: "#E6DEDD",
       date: "Feb 2024 - Present",
       points: [
@@ -196,7 +196,7 @@ import {
     {
       name: "Apple Website",
       description:
-        "A clon of the apple website that has amazing 3d graphics.",
+        "A clone of the apple website that has amazing 3d graphics.",
       tags: [
         {
           name: "react",
@@ -211,7 +211,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: appleclone,
       source_code_link: "https://github.com/",
     },
     {
@@ -232,7 +232,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: gymapp,
       source_code_link: "https://github.com/",
     },
     {
@@ -253,7 +253,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: travelapp,
       source_code_link: "https://github.com/",
     },
   ];
