@@ -171,34 +171,26 @@ import {
   
   const projects = [
     {
-      name: "Project One",
-      description: "Short description of Project One.",
-      tags: [
-        { name: "react", color: "blue-text-gradient" },
-        { name: "api", color: "green-text-gradient" },
-      ],
-      image: "https://via.placeholder.com/400x230?text=Project+One",
-      site_link: "https://yourprojectone.com",
-    },
-    {
-      name: "Project Two",
-      description: "Short description of Project Two.",
+      name: "Duo Fit",
+      description: "A modern fitness web app for tracking workouts and progress, built with Next.js and Tailwind CSS.",
       tags: [
         { name: "nextjs", color: "blue-text-gradient" },
-        { name: "css", color: "pink-text-gradient" },
+        { name: "tailwind", color: "green-text-gradient" },
+        { name: "fitness", color: "pink-text-gradient" },
       ],
-      image: "https://via.placeholder.com/400x230?text=Project+Two",
-      site_link: "https://yourprojecttwo.com",
+      // image removed
+      site_link: "https://duo-fit.vercel.app/",
     },
     {
-      name: "Project Three",
-      description: "Short description of Project Three.",
+      name: "C-Zone Gym",
+      description: "A responsive gym website showcasing services, trainers, and membership plans. Built with React and Tailwind CSS.",
       tags: [
-        { name: "nodejs", color: "green-text-gradient" },
-        { name: "mongodb", color: "blue-text-gradient" },
+        { name: "react", color: "blue-text-gradient" },
+        { name: "tailwind", color: "green-text-gradient" },
+        { name: "gym", color: "pink-text-gradient" },
       ],
-      image: "https://via.placeholder.com/400x230?text=Project+Three",
-      site_link: "https://yourprojectthree.com",
+      // image removed
+      site_link: "https://c-zone-gym.vercel.app/",
     },
   ];
   
