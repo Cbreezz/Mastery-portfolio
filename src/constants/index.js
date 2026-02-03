@@ -41,18 +41,21 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "React Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "AI & Automation",
+      icon: web,
     },
-    
+    {
+      title: "Full-Stack Developer",
+      icon: backend, // You can change this to a more suitable icon if available
+    },
   ];
   
   const technologies = [
@@ -112,55 +115,29 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Synnefa Green Limited",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "July 2021 - December 2021",
+      title: "Junior Software Engineer",
+      company_name: "Technoprise Global",
+      date: "Aug 2023 – Jul 18, 2024 | Nairobi, Kenya",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to Kutana Events V2, focusing on the frontend and backend integration.",
+        "Developed key frontend pages including the homepage and testimonials page using Next.js and Chakra UI.",
+        "Implemented Google Sign-In authentication and integrated secure login functionality.",
+        "Set up and tested API endpoints on the backend using PHP (Lumen).",
+        "Worked closely with senior developers in a collaborative agile team.",
+        "Reference: Jude Otenyo (Senior Developer) – [0712619962]",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Inceptor Kenya",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2022 - Jan 2023",
+      title: "Data Manager (Contract)",
+      company_name: "Constituency Development Fund (CDF)",
+      date: "2024 – Present | Nairobi, Kenya",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "PESco",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Feb 2023 - Jan 2024",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "County Government Funds(CDF)",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Feb 2024 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contract-based engagement in data recording and management since 2024.",
+        "Collected, sorted, and managed large sets of community development data.",
+        "Maintained clean and up-to-date Excel reports to track funding allocations and project progress.",
+        "Helped streamline data flows between departments and contributed to accurate reporting.",
+        "Ensured data accuracy and confidentiality in handling sensitive records.",
+        "Reference: Collins Amenya (Engineer) – [0717579804]",
       ],
     },
   ];
@@ -194,67 +171,34 @@ import {
   
   const projects = [
     {
-      name: "Apple Website",
-      description:
-        "A clone of the apple website that has amazing 3d graphics.",
+      name: "Project One",
+      description: "Short description of Project One.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Gsap",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        { name: "react", color: "blue-text-gradient" },
+        { name: "api", color: "green-text-gradient" },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: "https://via.placeholder.com/400x230?text=Project+One",
+      site_link: "https://yourprojectone.com",
     },
     {
-      name: "Gym App",
-      description:
-        "Web application that enables users to be able to see the correct exercises for certain body parts either with equipments or without.",
+      name: "Project Two",
+      description: "Short description of Project Two.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        { name: "nextjs", color: "blue-text-gradient" },
+        { name: "css", color: "pink-text-gradient" },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: "https://via.placeholder.com/400x230?text=Project+Two",
+      site_link: "https://yourprojecttwo.com",
     },
     {
-      name: "Travel App",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "Project Three",
+      description: "Short description of Project Three.",
       tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        { name: "nodejs", color: "green-text-gradient" },
+        { name: "mongodb", color: "blue-text-gradient" },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: "https://via.placeholder.com/400x230?text=Project+Three",
+      site_link: "https://yourprojectthree.com",
     },
   ];
   
