@@ -1,62 +1,60 @@
-Introduction
+# Mastery Portfolio
 
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
-ech Stack
-React.js
-Three.js
-React Three Fiber
-React Three Drei
-Email JS
-Vite
-Tailwind CSS
-🔋 Features
-👉 Customizable 3D Hero Section: Includes a 3D desktop model easily customizable to suit specific needs.
+A personal developer portfolio featuring immersive 3D visuals, animated sections, selected projects, work experience, and a contact form.
 
-👉 Interactive Experience and Work Sections: Utilizes animations powered by framer motion for engaging user experience.
+## Tech Stack
 
-👉 3D Skills Section: Showcases skills using 3D geometries through three.js and React Three fiber
+- React 18
+- Vite
+- Tailwind CSS
+- Three.js
+- React Three Fiber
+- React Three Drei
+- Framer Motion
+- React Router
+- React Vertical Timeline
+- EmailJS
+- ESLint
 
-👉 Animated Projects and Testimonials: Features animated sections using framer motion for projects and client testimonials.
+## Highlights
 
-👉 Contact Section with 3D Earth Model:Integrates a 3D earth model with email functionality powered by emailjs.
+- Interactive 3D hero and skills sections
+- Animated projects, testimonials, and work experience timeline
+- 3D Earth contact section with EmailJS integration
+- Responsive layout for desktop, tablet, and mobile screens
+- Reusable component-based React architecture
 
-👉 3D Stars: Generate stars progressively at random positions using Three.js for background display.
+## Getting Started
 
-👉 Consistent Animations: Implements cohesive animations throughout the website using framer motion.
+### Prerequisites
 
-👉 Responsive Design: Ensures optimal display and functionality across all devices.
+- Node.js
+- npm
+- Git
 
-and many more, including code architecture and reusability
+### Installation
 
-🤸 Quick Start
-Follow these steps to set up the project locally on your machine.
-
-Prerequisites
-
-Make sure you have the following installed on your machine:
-
-Git
-Node.js
-npm (Node Package Manager)
-Cloning the Repository
-
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
-Installation
-
-Install the project dependencies using npm:
-
+```bash
 npm install
-Set Up Environment Variables
+```
 
-Create a new file named .env in the root of your project and add the following content:
+### Run locally
 
-REACT_APP_EMAILJS_USERID=your_emailjs_user_id
-REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
-REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
-Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the EmailJS website.
-
-Running the Project
-
+```bash
 npm run dev
-Open http://localhost:5173 in your browser to view the project.
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## Project Scripts
+
+- `npm run dev` — Start the Vite development server
+- `npm run build` — Create a production build
+- `npm run preview` — Preview the production build locally
+- `npm run lint` — Run ESLint checks
