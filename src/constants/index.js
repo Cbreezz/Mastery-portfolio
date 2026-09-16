@@ -117,7 +117,7 @@ import {
     {
       title: "Junior Software Engineer",
       company_name: "Technoprise Global",
-      date: "Aug 2023 – Jul 18, 2024 | Nairobi, Kenya",
+      date: "July 2024 – August 2025 | Nairobi, Kenya",
       points: [
         "Contributed to Kutana Events V2, focusing on the frontend and backend integration.",
         "Developed key frontend pages including the homepage and testimonials page using Next.js and Chakra UI.",
@@ -128,11 +128,11 @@ import {
       ],
     },
     {
-      title: "Data Manager (Contract)",
+      title: "Data Manager (Annual Contract)",
       company_name: "Constituency Development Fund (CDF)",
-      date: "2024 – Present | Nairobi, Kenya",
+      date: "2023 – 2026 | Nairobi, Kenya",
       points: [
-        "Contract-based engagement in data recording and management since 2024.",
+        "Annual contract engagement in data recording and management from 2023 to 2026.",
         "Collected, sorted, and managed large sets of community development data.",
         "Maintained clean and up-to-date Excel reports to track funding allocations and project progress.",
         "Helped streamline data flows between departments and contributed to accurate reporting.",
